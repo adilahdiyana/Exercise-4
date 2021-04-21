@@ -1,0 +1,15 @@
+package Exercise4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		PencilCase obj1 = new PencilCase("Kokuyo", "Zipper", 90.0);
+		System.out.println(obj1 + "\n");
+		
+		Kokuyo obj2 = new Kokuyo("Kokuyo", "Zipper", 90.0);
+		System.out.println(obj2 + "\n");
+		System.out.println("Total price \t\t\t: " + obj2.getPrice() + "dollars");
+		System.out.println("Ratings \t\t\t: " + obj2.getRatings() + "ratings");
+	}
+}
