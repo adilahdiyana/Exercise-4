@@ -1,6 +1,7 @@
 package Exercise4;
 import java.util.Scanner;
-public class Kokuyo extends PencilCase{
+public class Kokuyo extends PencilCase{ // Kokuyo sub class 
+					// PencilCase super class
 	
 	private String color;
 	private double price, dimensions;
